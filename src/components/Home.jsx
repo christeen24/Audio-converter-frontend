@@ -8,7 +8,7 @@ import { Helmet } from "react-helmet";
 import { FilePond, File, registerPlugin } from "react-filepond";
 import FilePondPluginFileValidateType from "filepond-plugin-file-validate-type";
 import FilePondPluginFileValidateSize from "filepond-plugin-file-validate-size";
-import "filepond/dist/filepond.min.css"; //styles
+import "filepond/dist/filepond.min.css"; 
 
 // Register the plugins
 registerPlugin(FilePondPluginFileValidateType, FilePondPluginFileValidateSize);
@@ -45,6 +45,7 @@ export default function Home(props) {
         {/* header */}
         <Header />
         {/* end of header */}
+        {/* content */}
         <div class="container-fluid">
           <div class="d-flex justify-content-center vh-100">
             <div class="col-md-6 col-sm-12 px-0 upload-container">
@@ -89,18 +90,6 @@ export default function Home(props) {
                   <tbody>
                     <tr>
                       <th scope="row">1</th>
-                      <td>Mark</td>
-                      <td>Otto</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">2</th>
-                      <td>Jacob</td>
-                      <td>Thornton</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">3</th>
-                      <td>Larry</td>
-                      <td>the Bird</td>
                     </tr>
                   </tbody>
                 </table>
@@ -108,6 +97,7 @@ export default function Home(props) {
             </div>
           </div>
         </div>
+        {/* end of content */}
         {/* footer */}
         <Footer />
         {/* end of footer */}

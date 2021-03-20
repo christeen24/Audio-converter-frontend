@@ -1,5 +1,4 @@
 import { React } from "react";
-// import { Helmet } from "react-helmet";
 
 export default function Header(props) {
   return (
@@ -39,9 +38,6 @@ export default function Header(props) {
                 >
                     <a class="dropdown-item" href="#">
                       Account
-                    </a>
-                    <a class="dropdown-item" href="#">
-                      Another action
                     </a>
                     <hr class="dropdown-divider" />
                   <li>
